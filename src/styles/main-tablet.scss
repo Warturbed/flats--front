@@ -1,0 +1,27 @@
+@import './fonts.scss';
+@import './tablet/container/container';
+@import './tablet/scroll-top/scroll-top';
+@import './tablet/main/main';
+@import './tablet/sort/sort';
+@import './tablet/flat-list/flat-list';
+@import './tablet/flat-item/flat-item';
+@import './tablet/sidebar/sidebar';
+@import './tablet/radio/radio';
+@import './tablet/widget/widget';
+@import './tablet/filter/filter';
+@import './tablet/range-slider/range-slider';
+
+$main: #0b1739;
+html {
+	scroll-behavior: smooth;
+}
+* {
+	color: $main;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'PT-Root-UI';
+	font-weight: 400;
+}

@@ -1,0 +1,39 @@
+.flat-item {
+	&__content {
+		display: flex;
+	}
+	&__description {
+		margin: 0;
+		order: 3;
+		display: flex;
+		* {
+			font-size: 16px;
+			line-height: 24px;
+			display: block;
+			width: 120px;
+			margin-right: 20px;
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+	&__img {
+		display: block;
+		width: 80px;
+		height: 80px;
+		order: 1;
+		margin-right: 20px;
+	}
+	&__rooms {
+		display: block;
+		width: 281px;
+		order: 2;
+		margin-right: 20px;
+	}
+	&__floor {
+		&::after {
+			content: ' из 17';
+			opacity: 50%;
+		}
+	}
+}

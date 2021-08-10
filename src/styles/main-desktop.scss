@@ -1,0 +1,28 @@
+@import './fonts.scss';
+@import './desktop/container/container';
+@import './desktop/scroll-top/scroll-top';
+@import './desktop/main/main';
+@import './desktop/sort/sort';
+@import './desktop/flat-list/flat-list';
+@import './desktop/flat-item/flat-item';
+@import './desktop/sidebar/sidebar';
+@import './desktop/radio/radio';
+@import './desktop/widget/widget';
+@import './desktop/filter/filter';
+@import './desktop/range-slider/range-slider';
+
+$main: #0b1739;
+html {
+	scroll-behavior: smooth;
+}
+* {
+	color: $main;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'PT-Root-UI';
+	font-weight: 400;
+	font-style: normal;
+}

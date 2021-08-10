@@ -1,0 +1,17 @@
+.scroll-top {
+	background: url(../img/scroll-top.png);
+	background-size: cover;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+	z-index: 999;
+	border: none;
+	border-radius: 100px;
+	cursor: pointer;
+	position: fixed;
+	right: 32px;
+	bottom: 32px;
+	&--hide {
+		display: none;
+	}
+}

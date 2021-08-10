@@ -1,0 +1,12 @@
+.flat-list {
+	&__item {
+		height: 120px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 8px;
+		padding-top: 16px;
+		cursor: pointer;
+		padding: 16px 24px;
+		height: 112px;
+		margin-top: 4px;
+	}
+}

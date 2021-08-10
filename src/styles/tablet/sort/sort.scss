@@ -1,0 +1,52 @@
+$main: #3eb57c;
+
+.sort {
+	span {
+		font-size: 14px;
+		line-height: 20px;
+		display: inline-block;
+		margin-right: 20px;
+		&:last-child {
+			margin: 0;
+		}
+	}
+	&__size {
+		cursor: pointer;
+		cursor: pointer;
+		&::after {
+			content: url('../img/sort-arrows.png');
+			margin-left: 8px;
+			width: 10px;
+			height: 7px;
+		}
+	}
+	&__floor {
+		cursor: pointer;
+		cursor: pointer;
+		&::after {
+			content: url('../img/sort-arrows.png');
+			margin-left: 8px;
+			width: 10px;
+			height: 7px;
+		}
+	}
+	&__price {
+		cursor: pointer;
+		cursor: pointer;
+		&::after {
+			content: url('../img/sort-arrows.png');
+			margin-left: 8px;
+			width: 10px;
+			height: 7px;
+		}
+	}
+	&__btn--active {
+		color: $main;
+		&::after {
+			content: url('../img/sort-arrows-active.png');
+			margin-left: 8px;
+			width: 10px;
+			height: 7px;
+		}
+	}
+}
