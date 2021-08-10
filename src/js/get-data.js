@@ -167,6 +167,7 @@ fetch(requestUrl).then(response => {
             })
             // Сброс значений фильтра
             const resetBtn = document.querySelector('.filter__reset').addEventListener('click', () => {
+                sliderByPrice.noUiSlider.reset()
                 sliderBySize.noUiSlider.reset()
                 newData = data.flatlist
                 showList()
