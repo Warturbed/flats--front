@@ -62,7 +62,7 @@ function clear() {
 
 function serve() {
   sync.init({
-    server: './build'
+    server: './src'
   })
 
   watch('src/**.html', series(html)).on('change', sync.reload)
